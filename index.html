@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset\style.css">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <header>
+        <h1>Le monde de demain</h1>
+        <p class="profession">
+            Nous appartient (Mais pas tout d'suite)
+        </p>
+    </header>
+
+    <div class="main-container">
+
+        <br>
+        <form action="" method="">
+            <label for="firstname">Prénom: </label><br>
+            <input type="text" id="firstname" name="prénom" placeholder="Entrez votre prénom">
+            <br>
+            <form action="" method="">
+                <label for="nom">nom: </label><br>
+                <input type="text" id="nom" name="nom" placeholder="Entrez votre nom">
+                <br>
+                <button>Envoyer</button>
+                <br><br>
+            </form>
+            <form action="" method="">
+                <label for="age">
+                    age:
+                </label><br>
+                <input type="number" id="age" name="age" placeholder="Entrez votre age!"><br>
+            </form>
+            <form action="" method="">
+                <label for="note">
+                    note:
+                </label><br>
+                <input type="number" id="note" name="note" placeholder="Entrez votre note!"><br>
+                <label for="message">
+                    complements d'information
+                </label><br>
+                <textarea name="auto-appréciation" id="message" cols="30" rows="5">
+                </textarea><br>
+                <button>Envoyer</button><br><br>
+            </form>
+            <form action="" method="">
+                <select name="matiere" id="matiere">
+                    <option value="chocolaterie">chocolat</option>
+                    <option value="pistacherie">pistache</option>
+                    <option value="vanillerie">vanille</option>
+                    <option value="caramelerie">caramel</option>
+                </select><br>
+                <label for="la glace">
+                    la glace
+                </label><br>
+                <input list="glace">
+                <datalist id="la glace">
+                    <option value="cornet">
+                    <option value="pot">
+                    <option value="bol">
+                </datalist>
+
+            </form>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
